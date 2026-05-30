@@ -15,6 +15,7 @@ public class FuncionarioRepository {
         return funcionarios;
     }
 
+    // Método extra e essencial para o sistema de LOGIN
     public Funcionario buscarPorMatricula(String matricula) {
         for (Funcionario f : funcionarios) {
             if (f.getMatricula().equals(matricula)) {
